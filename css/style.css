@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+/* font-family: "Roboto Slab", serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+    /* so now 1 rem = 10px */
+}
+/* common class */
+.container{
+    
+    max-width: 146rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.section_padding{
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+}
+.section_content{
+    max-width: 85.2rem;
+    width: 100%;
+}
+.section_heading{
+    font-size: 5rem;
+    line-height: 1.8;
+    font-family: "Roboto Slab", serif;
+    color: black;
+}
+.section_text{
+    max-width: 86.9rem;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 3rem;
+}
+/* common elements */
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+/* about */
+.riva-blocks{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.riva-items{
+    width: 46.7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1.5rem rgba(53, 51, 51, 0.418);
+    padding: 1.2rem;
+}
+.riva-items h2{
+    font-size: 2.6rem;
+    font-family: "Roboto Slab", serif;
+    color: black;
+    line-height: 3.46;
+}
+.riva-items p{
+    color: rgba(54, 51, 51, 0.664);
+    font-size: 1.6rem;
+    max-width: 41.5rem;
+    width: 100%;
+    line-height: 1.62;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 4.2rem;
+}
+
+@media (max-width: 767px) {
+    html{
+        font-size: 76.7%;
+    }
+    .section_padding{
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+}
+.section_content{
+    max-width: 55.2rem;
+    width: 100%;
+}
+.section_heading{
+    font-size: 3rem;
+    line-height: 1.6;
+    font-family: "Roboto Slab", serif;
+    color: black;
+}
+.section_text{
+    max-width: 36.9rem;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1rem;
+}
+/* about */
+.riva-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.riva-items{
+    width: 100%;
+   
+}
+.riva-items h2{
+    font-size: 1.8rem;
+    font-family: "Roboto Slab", serif;
+    color: black;
+    line-height: 3.46;
+}
+.riva-items p{
+    color: rgba(54, 51, 51, 0.664);
+    font-size: 1.2rem;
+    max-width: 100%;
+    width: 100%;
+    line-height: 1.62;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 4.2rem;
+}
+.riva-items figure img{
+    width: 100%;
+}
+}
