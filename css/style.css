@@ -1773,7 +1773,7 @@ nav{
 
 .guarantee{
    
-    height: 40vh;
+    height: 50vh;
     
 }
 .guarantee-content{
@@ -2156,7 +2156,7 @@ nav{
 }
 
 .banner{
-    background-image: url('../css/images/Mask\ group\ \(8\).png');
+    background-image: url('../imagesNew/Mask\ group\ \(8\).png');
     background-size:cover ;
     background-repeat: no-repeat;
     background-position: center;
