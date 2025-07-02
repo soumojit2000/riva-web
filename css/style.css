@@ -3125,17 +3125,17 @@ nav{
     max-width: 36.5rem;
     width: 100%;
     font-family: "Inter", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.1;
     color: #ffffff;
     text-align: center;
-    transform: translateY(-4rem);
+    transform: translateY(-6rem);
     margin: auto;
     
 }
 .guarantee .btn_white{
     margin:auto;
-    transform: translate(0rem,-3rem);
+    transform: translate(0rem,-7rem);
 }
 
 .pay h2{
