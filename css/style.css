@@ -96,14 +96,17 @@ img{
 .navbar{
     background-color:transparent;
     padding: 2.6rem 0rem ;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 99;
+    transition: background-color 0.3s ease;
 }
-
+#navbar.scrolled{
+    background-color: black;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -802,12 +805,13 @@ input[type='submit']{
 .navbar{
     background-color:transparent;
     padding: 1.6rem 0rem ;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 99;
+    
 }
 
 nav{
@@ -815,14 +819,27 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.navbar_brand{
+    width: 100%;
+}
 .navlist{
     display: none;
     
 }
+.navlist li a{
+    font-size: 1.3rem;
+   line-height: 1.4;
+   font-weight: bold;
+   text-shadow: 0.5rem 0 0.1rem black;
+}
 .toggler{
     display: block;
-    font-size: 3rem;
-    margin-left: 22rem;
+    font-size: 2.3rem;
+    margin-right: 1rem;
+}
+.showList{
+    display: block;
+   
 }
 .banner{
     background-image: url('../imagesNew/Mask\ group\ \(8\).png');
